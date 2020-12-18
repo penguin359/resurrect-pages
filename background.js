@@ -27,7 +27,7 @@ chrome.storage.local.get('openIn', item => {
     ]) {
       chrome.contextMenus.create({
         contexts: [context],
-        icons: {16: 'icons/cacheicons/' + icon + '.png'},
+        //icons: {16: 'icons/cacheicons/' + icon + '.png'},
         id: 'resurrect-' + id + '-' + context,
         parentId: 'resurrect-' + context,
         title: name,
